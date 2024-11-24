@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_aroma23_reactcalculator_1732472647432-pr-trigger-input-set
+  identifier: Build_aroma23_reactcalculator_1732472647432prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Demo
+  pipeline:
+    identifier: Build_aroma23_reactcalculator_1732472647432
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
