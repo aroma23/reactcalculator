@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_aroma23_reactcalculator_1732472188033-push-trigger-input-set
+  identifier: Build_aroma23_reactcalculator_1732472188033pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Demo
+  pipeline:
+    identifier: Build_aroma23_reactcalculator_1732472188033
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
